@@ -8,7 +8,6 @@
     --main-color:#d3ad7f;
 }
 
-
 *{
     font-family: 'Roboto', sans-serif;
     margin: 0; padding: 0;
@@ -65,6 +64,11 @@ section{
 .btn:hover{
     letter-spacing: .2rem;
 }
+.message{
+    top: 15vh;
+    font-size: 1.7rem;
+    text-transform: none;
+}
 
 /* NAVBAR */
 .header{
@@ -75,7 +79,7 @@ section{
     padding: 1.5rem 7%;
     border-bottom: var(--border);
     top: 0; right: 0; left: 0;
-    z-index: 1000;
+    z-index: 1;
 }
 .header{
     position: fixed;
@@ -175,12 +179,12 @@ section{
     color: #ffffff;
 }
 .home .content .btn{
-    background-color: #fff;
-    color: var(--balck);
-}
-.home .content .btn:hover{
     background-color: var(--balck);
     color: #fff;
+}
+.home .content .btn:hover{
+    background-color: #fff;
+    color: var(--balck);
     cursor: pointer;
     letter-spacing: .2rem;
     transition: .4s;

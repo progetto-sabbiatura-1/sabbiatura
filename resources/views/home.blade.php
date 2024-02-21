@@ -25,8 +25,8 @@
 </header>
 
 @if (session('message'))
-<div class="alert alert-success">
-    <p class="m-5">{{session('message')}}</p>
+<div class="alert alert-success message">
+    <p class="m-0 text-black">{{session('message')}}</p>
 </div>
 @endif
 
@@ -111,7 +111,7 @@
             @csrf
             <div class="inputBox">
                 <span class="fas fa-user"></span>
-                <input type="text" placeholder="nome" name="name">
+                <input type="text" placeholder="name" name="name">
             </div>
             <div class="inputBox">
                 <span class="fas fa-envelope"></span>
