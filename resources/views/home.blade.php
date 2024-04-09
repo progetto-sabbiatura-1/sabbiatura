@@ -64,7 +64,7 @@
 <hr class="my-5">
 <section class="galleria" id="galleria">
 <h1 class="heading"> <span>galleria</span></h1>
-<h3 class="text-center  heading-2 display-5 mb-5"> <span> Alcuni dei Nostri lavori </span></h3>
+<h3 class="text-center  heading-2 display-5 mb-5">Alcuni dei Nostri <span> Lavori </span></h3>
 
 
     <div class="container">
@@ -81,13 +81,13 @@
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="3000">
-                    <img src="/img/sabb1.jpg" class="d-block w-100" alt="...">
+                    <img src="/img/sabb1.jpg" class="d-block carousel-image w-100" alt="...">
                 </div>
                 <div class="carousel-item" data-bs-interval="3000">
-                    <img src="/img/cant2.jpg" class="d-block w-100" alt="...">
+                    <img src="/img/cant2.jpg" class="d-block carousel-image w-100" alt="...">
                 </div>
                 <div class="carousel-item" data-bs-interval="3000">
-                    <img src="/img/sab2.jpg" class="d-block w-100" alt="...">
+                    <img src="/img/sab2.jpg" class="d-block carousel-image w-100" alt="...">
                 </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
