@@ -5,15 +5,20 @@ menuBtn.addEventListener('click' , ()=>{
 navbar.classList.toggle('d-none');
 navbar.classList.toggle('d-md-none');
 });
-window.addEventListener('scroll' , ()=>{
-    if (window.scrollY > 0) {
-        // navbar.style.height = '60px';
-        
-    }else {
-        // header.style.height = '50px';
-        
-    }
-})
+
+// METODO QUAI GIUSTO
+
+// window.addEventListener('scroll', () => {
+//     if (window.scrollY > 100) {
+//         navbar.classList.add('d-none');
+//     } else {
+//         navbar.classList.remove('d-none');
+//     }
+//     });
+
+
+
+
 
 window.onscroll = () =>{
     // navbar.classList.toggle('d-none');

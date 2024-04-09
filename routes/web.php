@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PublicController::class , 'home'])->name('home');
 Route::post('/submit' , [PublicController::class , 'submit'])->name('submit');
+Route::get('/contatti' , [PublicController::class , 'contatti'])->name('contatti');
+Route::get('/galleria' , [PublicController::class , 'galleria'])->name('galleria');

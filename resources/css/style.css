@@ -14,7 +14,7 @@
     box-sizing: border-box;
     outline: none; border: none;
     text-decoration: none;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     transition: .2s linear;
 }
 
@@ -36,7 +36,8 @@ html::-webkit-scrollbar-track{
 } */
 
 body{
-    background: linear-gradient(to right, rgba(213,206,166,1) 0%,rgba(201,193,144,1) 100%,rgba(183,173,112,1) 100%);
+/* background: linear-gradient(rgba(203, 196, 153, 0.498),rgba(225, 225, 225, 0)); */
+background: linear-gradient(to bottom, rgba(243,226,199,1) 0%,rgba(193,158,103,1) 0%,rgba(233,212,179,1) 0%,rgba(233,212,179,1) 0%,rgba(252,252,252,1) 100%);
 }
 section{
     padding: 2rem 7%;
@@ -72,11 +73,12 @@ section{
 
 /* NAVBAR */
 .header{
-    background: linear-gradient(to right, rgb(187, 182, 144) 0%,rgb(184, 177, 137) 100%,rgb(174, 165, 114) 100%);
+    /* background: linear-gradient(to right, rgb(187, 182, 144) 0%,rgb(184, 177, 137) 100%,rgb(174, 165, 114) 100%); */
+    background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem 7%;
+    padding: 0.2rem 7%;
     border-bottom: var(--border);
     top: 0; right: 0; left: 0;
     z-index: 1;
@@ -95,9 +97,28 @@ section{
     text-decoration: none;
 }
 .header .navbar a:hover{
-    color: white;
-    border-bottom: .1rem solid white;
+    color: var(--main-color);
+    border-bottom: .1rem solid var(--main-color);
     padding-bottom: .5rem;
+}
+.header .share{
+    /* padding: 1rem 0; */
+    /* margin-left: 10vh; */
+
+}
+.header .share a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 3rem;
+    color: var(--balck);
+    border: 2px solid var(--main-color);
+    margin: .2rem;
+    /* border-radius: 50%; */
+    padding: 0rem 1rem;
+}
+.header .share a:hover{
+    background-color: var(--main-color);
 }
 
 /* SEARCH E TOGGLE */
@@ -108,7 +129,7 @@ section{
     margin-left: 2rem;
 }
 .header .icons div:hover{
-    color: white;
+    color: var(--main-color);
 }
 /* toggle */
 #menu-btn{
@@ -146,6 +167,10 @@ section{
 .header .search-form label:hover{
     color: var(--main-color);
 }
+.spazioNavbar{
+    height: 54px;
+    width: 110px;
+}
 
 /* immagine header */
 .home{
@@ -167,7 +192,7 @@ section{
     border-radius: 5px;
 }
 .home .content h3{
-    font-size: 4rem;
+    font-size: 3rem;
     text-transform: uppercase;
     color: #fff;
 }
@@ -228,41 +253,91 @@ section{
     padding: 1rem 0;
     line-height: 1.8;
 }
+.about .row .content .btn:hover{
+    background-color: #fff;
+    color: var(--main-color);
+    transition: .4s;
+}
+
 
 /* CARD-GALLERIA */
 .galleria .heading-2{
     margin-top: -3vh;
 }
-.card{
-    margin-top: 2vh;
-    border: transparent;
+.carousel{
+    height: 50vh;
 }
-/* .card:hover{
-    margin: 2vh;
-    background: linear-gradient(to right, rgba(213,206,166,1) 0%,rgba(201,193,144,1) 100%,rgba(183,173,112,1) 100%);
-    border: transparent;
+.carousel-inner{
+    height: 50vh;
+}
+/* .carousel-item{
+    height: 65vh;
+    width: 75vh;
+    left: 50vh;
 } */
-.card-img-top{
-    border-color:  rgba(213,206,166,1) 0%,rgba(201,193,144,1) 100%,rgba(183,173,112,1) 100%;
+
+/* PAGINA GALLERIA */
+.gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container .heading3{
+    margin-top:20vh;
+    font-family: 'poppins', sans-serif;
+    width: 50%;
+    padding-bottom: 5vh;
+}
+.gallery .heading3 h3{
+    font-size: 3rem;
+    font-weight: bolder;
+    border-bottom: 3px solid var(--main-color);
+}
+.gallery .heading3 span{
+    font-size: 4rem;
+    font-weight: 100;
+}
+.gallery .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin: 40px 20px 0 20px;
+}
+.gallery .box .dream{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+.gallery .box .dream img{
+    width: 100%;
+    padding-bottom: 8px;
     border-radius: 5px;
 }
-.card-img-top:hover{
-    scale: 1.1;
+.gallery .btn a{
+    color: #fff;
+    text-decoration: none;
+}
+.gallery .btn:hover{
+    background-color: var(--balck);
+    color: #fff;
 }
 
-
-
 /* CONTATTACI E MAPPA */
+.background{
+    background: #fff;
+}
 .contact .row{
     display: flex;
-    background: var(--main-color);
+    background: #e4e3e3;
     flex-wrap: wrap;
     gap: 1rem;
     border-radius: 5px;
 }
 .contact .row .map{
-    flex:1 1 45rem;
-    width: 100%;
+    flex:2 1 5rem;
     object-fit: cover;
     margin: 1vh;
 }
@@ -303,7 +378,7 @@ section{
     padding: 2rem 3rem;
     font-size: 1.7rem;
     color: var(--main-color);
-    background: #fff;
+    background: var(--main-color);
     color: var(--balck);
     cursor: pointer;
 }
@@ -326,6 +401,19 @@ textarea{
     text-transform: none;
     background: none;
 }
+
+
+/* PAGINE CONTATTI */
+.contactContatti{
+    margin-top: 17vh;
+    background-color: #fff;
+}
+.backgroundContatti{
+    background-color: #fff;
+}
+
+
+
 /*FOOTER e SOCIAL */
 .footer{
     background-color: #ffffff;
@@ -368,19 +456,32 @@ textarea{
 /* credit scritte finali */
 .footer .credit{
     font-size: 2rem;
-    color: var(--main-color);
+    color: var(--balck);
     font-weight: lighter;
     padding: 1.5rem;
 }
 .footer .credit span{
-    color: var(--balck);
+    color: var(--main-color);
 }
 
+
+@media (max-width:1024px){
+    .message{
+        top: 12vh;
+        font-size: 1.7rem;
+        text-transform: none;
+    }
+}
 
 
 @media (max-width:991px){
     html{
         font-size: 55%;
+    }
+    .message{
+        top: 12vh;
+        font-size: 1.7rem;
+        text-transform: none;
     }
     .header{
         padding: 1.5rem 2rem;
@@ -394,7 +495,11 @@ textarea{
     #menu-btn{
         display: inline-block;
     }
-    
+    .message{
+        top: 14vh;
+        font-size: 1.7rem;
+        text-transform: none;
+    }
     .header .navbar{
         position: absolute;
         top: 13vh; right: 0%;
@@ -453,11 +558,16 @@ textarea{
     html{
         font-size: 50%;
     }
+    .message{
+        top: 13vh;
+        font-size: 1.7rem;
+        text-transform: none;
+    }
     .header .logo{
         height: 11rem;
     }
     .home .content{
-        margin-top: 4vh;
+        margin-top: -30vh;
         background: transparent;
     }
     .header .navbar{
@@ -471,8 +581,17 @@ textarea{
     /* .header .navbar a{
         border-right: 2px solid #9b441855;
     } */
+    .heading3{
+        margin-top:15vh;
+        font-family: 'poppins', sans-serif;
+    }
 }
 @media (max-width:375px){
+    .message{
+        top: 15vh;
+        font-size: 1.7rem;
+        text-transform: none;
+    }
     .header .logo{
         height: 10rem;
     }
@@ -486,5 +605,13 @@ textarea{
     }
     .home{
         margin-top: 10vh;
+    }
+    .home .content{
+        margin-top: 1vh;
+        background: transparent;
+    }
+    .heading3{
+        margin-top:15vh;
+        font-family: 'poppins', sans-serif;
     }
 }
