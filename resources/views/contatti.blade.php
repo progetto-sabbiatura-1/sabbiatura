@@ -19,7 +19,7 @@
         <a href="#" class="fab fa-facebook-f"></a>
         <a href="#" class="fab fa-linkedin"></a>
         <a href="tel: +393791056039" class="fab fa-whatsapp"></a>
-    </div>
+</div>
 
 <div class="icons">
     <div class="fas fa-bars" id="menu-btn"></div>
