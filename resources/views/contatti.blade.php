@@ -18,7 +18,7 @@
 <div class="share">
         <a href="#" class="fab fa-facebook-f"></a>
         <a href="#" class="fab fa-linkedin"></a>
-        <a href="tel: +393791056039" class="fab fa-whatsapp"></a>
+        <a href="tel: +393333841821" class="fab fa-whatsapp"></a>
 </div>
 
 <div class="icons">

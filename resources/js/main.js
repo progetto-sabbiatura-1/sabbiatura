@@ -6,7 +6,7 @@ navbar.classList.toggle('d-none');
 navbar.classList.toggle('d-md-none');
 });
 
-// METODO QUAI GIUSTO
+// METODO QUASI GIUSTO
 
 // window.addEventListener('scroll', () => {
 //     if (window.scrollY > 100) {

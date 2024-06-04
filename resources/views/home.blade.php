@@ -39,9 +39,8 @@
         <h3><strong>Sabbiature e Verniciature</strong></h3>
         <p>Sabbiature e Verniciature di Khabbas Benjamin & Mousa Sabbiature, specializzati nel settore da più di 30 anni.
         </p>
-        <img src="/img/ben3.png" alt="" class="stemma-header">
+        <img src="/img/ben4.png" alt="" class="stemma-header">
         <a href="{{route('contatti')}}" class="btn">Contattaci adesso</a>
-        
     </div>
 </section>
 <!-- about us -->
@@ -50,11 +49,13 @@
     <div class="row bordo-about">
         <div class="image">
             <img src="/img/ben3.png" alt="">
+            <div type="email" placeholder="email" class="fab fa-email">benkhabbas@outlook.it</div>
+            
         </div>
         <div class="content">
-            <h3>cosa rende il nostro lavoro unico?</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem et quia magnam nam nulla ut dolor quos! Facilis qui dolor nisi. Dolore temporibus repudiandae alias culpa possimus cupiditate.</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae sequi, nisi aliquam officia asperiores quidem hic provident aut vel aperiam.</p>
+            <h3>Di Cosa ci Occupiamo?</h3>
+            <p>La nostra azienda è specializzata in sabbiature edili su Cotto e Legno (Travi, Travicelli, Mezzana, Pareti interne e Facciate esterne). Trattamento cotto antispolvero e trattamento legno antitarlo con apposita macchinetta a pressione.</p>
+            <p>Sabbiatura metalli, lavorazione che viene usata per la rimozione della ruggine e per la rimozione di residui di vernice dal metallo per poi passare alla verniciatura del metallo sabbiato con l' applicazione dei prodotti più idonei e protettivi.</p>
             <a href="{{route('galleria')}}" class="btn">vedi di più</a>
         </div>
     </div>
@@ -81,13 +82,16 @@
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="3000">
-                    <img src="/img/sabb1.jpg" class="d-block carousel-image w-100" alt="...">
-                </div>
-                <div class="carousel-item" data-bs-interval="3000">
-                    <img src="/img/cant2.jpg" class="d-block carousel-image w-100" alt="...">
-                </div>
-                <div class="carousel-item" data-bs-interval="3000">
                     <img src="/img/sab2.jpg" class="d-block carousel-image w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="/img/galleria3.jpg" class="d-block carousel-image w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="/img/galleria2.jpg" class="d-block carousel-image w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="/img/galleria1.jpg" class="d-block carousel-image w-100" alt="...">
                 </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">

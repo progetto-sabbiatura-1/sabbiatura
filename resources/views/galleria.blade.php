@@ -34,28 +34,22 @@
     <div class="box">
         
         <div class="dream">
-            <img src="/img/cant1.jpg" alt="">
-            <img src="/img/cant2.jpg" alt="">
-            <img src="/img/cant3.jpg" alt="">
             <img src="/img/sabb1.jpg" alt="">
+            <img src="/img/galleria1.jpg" alt="">
             <img src="/img/sab2.jpg" alt="">
-            <img src="/img/sab4.jpg" alt="">
-        </div>
-        <div class="dream">
-            <img src="/img/sab4.jpg" alt="">
-            <img src="/img/sab2.jpg" alt="">
-            <img src="/img/sabb1.jpg" alt="">
-            <img src="/img/cant3.jpg" alt="">
-            <img src="/img/cant2.jpg" alt="">
-            <img src="/img/cant1.jpg" alt="">
+            <img src="/img/galleria5.jpg" alt="">
         </div>
         <div class="dream">
             <img src="/img/cant1.jpg" alt="">
-            <img src="/img/cant2.jpg" alt="">
-            <img src="/img/cant3.jpg" alt="">
-            <img src="/img/sabb1.jpg" alt="">
-            <img src="/img/sab2.jpg" alt="">
-            <img src="/img/sab4.jpg" alt="">
+            <img src="/img/galleria8.jpg" alt="">
+            <img src="/img/galleria3.jpg" alt="">
+            <img src="/img/galleria6.jpg" alt="">
+        </div>
+        <div class="dream">
+            <img src="/img/galleria2.jpg" alt="">
+            <img src="/img/galleria9.jpg" alt="">
+            <img src="/img/galleria4.jpg" alt="">
+            <img src="/img/galleria7.png" alt="">
         </div>
 
     </div>
