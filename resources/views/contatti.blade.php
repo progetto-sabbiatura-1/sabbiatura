@@ -16,9 +16,9 @@
 </nav>
 
 <div class="share">
-        <a href="#" class="fab fa-facebook-f"></a>
-        <a href="#" class="fab fa-linkedin"></a>
-        <a href="tel: +393333841821" class="fab fa-whatsapp"></a>
+        <!-- <a href="https://www.instagram.com" class="fab fa-facebook-f"></a> -->
+        <a href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAE9hrjsBzHkdcXzI4FhYb8y8t_5lkADsjdE&keywords=benyamin%20khabbas&origin=RICH_QUERY_SUGGESTION&position=0&searchId=7e8a5756-4d13-47ce-b83f-4993c3178865&sid=io~&spellCorrectionEnabled=false" class="fab fa-linkedin" target="_blank"></a>
+        <a href="tel: +393333841821" class="fab fa-whatsapp" target="_blank"></a>
 </div>
 
 <div class="icons">
@@ -37,7 +37,20 @@
 <!-- contact part -->
 <section class="contact contactContatti" id="contact">
 
-    
+<div class="container">
+    <div class="row">
+        <div class="col bg-white numero">
+
+        <i class="fa fa-envelope" aria-hidden="true"><div class="fa fa-email">benkhabbas@outlook.it</div></i>
+        <!-- <div class="fa fa-email">benkhabbas@outlook.it</div> -->
+
+        <i class="fa fa-phone" aria-hidden="true"><div class="m-1">+39 3333841821</div></i>
+        <i class="fa fa-phone" aria-hidden="true"><div class="m-1">+39 3492332598</div></i>
+
+        </div>
+    </div>
+</div>
+
 
     <div class="row">
     <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46275.453430516245!2d10.28408452638932!3d43.539542503367365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d5e967eb7e0fa3%3A0x602df37d22da13d4!2sLivorno%20LI!5e0!3m2!1sit!2sit!4v1707400883546!5m2!1sit!2sit"loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

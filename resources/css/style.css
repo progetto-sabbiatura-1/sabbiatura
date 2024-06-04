@@ -230,6 +230,7 @@ section{
 }
 .about .row .image{
     flex: 45rem;
+    margin-top: 2rem;
 }
 .about .row .image img{
     width: 30%;
@@ -420,7 +421,17 @@ textarea{
 .backgroundContatti{
     background-color: #fff;
 }
-
+.numero{
+    height: 12rem;
+    margin-top: -2rem;
+    margin-bottom: 0.1rem;
+}
+.fa{
+    scale: 1.5;
+    margin-left: 4rem;
+    margin-right: 5rem;
+    margin-top: 2.1rem;
+}
 
 
 /*FOOTER e SOCIAL */

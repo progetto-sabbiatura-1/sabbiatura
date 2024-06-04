@@ -9,7 +9,7 @@
 
 <nav class="navbar d-none d-md-block d-lg-block">
     <a href="{{route('home')}}">Home</a>
-    <a href="#">Chi Siamo</a>
+    <a href="{{route('home')}}">Chi Siamo</a>
     <a href="{{route('galleria')}}">Galleria</a>
     <a href="{{route('contatti')}}">Contatti</a>
 </nav>
@@ -49,12 +49,10 @@
     <div class="row bordo-about">
         <div class="image">
             <img src="/img/ben3.png" alt="">
-            <div type="email" placeholder="email" class="fab fa-email">benkhabbas@outlook.it</div>
-            
         </div>
         <div class="content">
             <h3>Di Cosa ci Occupiamo?</h3>
-            <p>La nostra azienda è specializzata in sabbiature edili su Cotto e Legno (Travi, Travicelli, Mezzana, Pareti interne e Facciate esterne). Trattamento cotto antispolvero e trattamento legno antitarlo con apposita macchinetta a pressione.</p>
+            <p>La nostra ditta è specializzata in sabbiature edili su Cotto e Legno (Travi, Travicelli, Mezzana, Pareti interne e Facciate esterne). Trattamento cotto antispolvero e trattamento legno antitarlo con apposita macchinetta a pressione.</p>
             <p>Sabbiatura metalli, lavorazione che viene usata per la rimozione della ruggine e per la rimozione di residui di vernice dal metallo per poi passare alla verniciatura del metallo sabbiato con l' applicazione dei prodotti più idonei e protettivi.</p>
             <a href="{{route('galleria')}}" class="btn">vedi di più</a>
         </div>
@@ -167,13 +165,13 @@
 
 <section class="footer">
     <div class="share">
-        <a href="#" class="fab fa-facebook-f"></a>
-        <a href="#" class="fab fa-linkedin"></a>
-        <a href="tel: +393791056039" class="fab fa-whatsapp"></a>
+        <!-- <a href="#" class="fab fa-facebook-f"></a> -->
+        <a href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAE9hrjsBzHkdcXzI4FhYb8y8t_5lkADsjdE&keywords=benyamin%20khabbas&origin=RICH_QUERY_SUGGESTION&position=0&searchId=7e8a5756-4d13-47ce-b83f-4993c3178865&sid=io~&spellCorrectionEnabled=false" class="fab fa-linkedin" target="_blank"></a>
+        <a href="tel: +393791056039" target="_blank" class="fab fa-whatsapp"></a>
     </div>
     <div class="links">
     <a href="{{route('home')}}">Home</a>
-    <a href="#">Chi Siamo</a>
+    <a href="{{route('home')}}">Chi Siamo</a>
     <a href="{{route('galleria')}}">Galleria</a>
     <a href="{{route('contatti')}}">Contatti</a>
     </div>

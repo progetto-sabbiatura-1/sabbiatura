@@ -67,8 +67,8 @@
 <!-- footer -->
 <section class="footer">
     <div class="share">
-        <a href="#" class="fab fa-facebook-f"></a>
-        <a href="#" class="fab fa-linkedin"></a>
+        <!-- <a href="#" class="fab fa-facebook-f"></a> -->
+        <a href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAE9hrjsBzHkdcXzI4FhYb8y8t_5lkADsjdE&keywords=benyamin%20khabbas&origin=RICH_QUERY_SUGGESTION&position=0&searchId=7e8a5756-4d13-47ce-b83f-4993c3178865&sid=io~&spellCorrectionEnabled=false" class="fab fa-linkedin" target="_blank"></a>
         <a href="tel: +393791056039" class="fab fa-whatsapp"></a>
     </div>
     <div class="links">
