@@ -9,10 +9,10 @@
 <div class="spazioNavbar"></div>
 
 <nav class="navbar d-none d-md-block d-lg-block">
-    <a href="{{route('home')}}">Home</a>
-    <a href="#">Chi Siamo</a>
-    <a href="{{route('galleria')}}">Galleria</a>
-    <a href="{{route('contatti')}}">Contatti</a>
+    <a href="{{route('home')}}">Home    |</a>
+    <!-- <a id="chisiamo">Chi Siamo</a> -->
+    <a href="{{route('galleria')}}">Galleria     |</a>
+    <a href="{{route('contatti')}}">Contatti     |</a>
 </nav>
 
 <div class="share">
@@ -93,7 +93,7 @@
 
     <div class="links">
     <a href="{{route('home')}}">Home</a>
-    <a href="#">Chi Siamo</a>
+    <!-- <a id="chisiamo">Chi Siamo</a> -->
     <a href="{{route('galleria')}}">Galleria</a>
     <a href="{{route('contatti')}}">Contatti</a>
     </div>

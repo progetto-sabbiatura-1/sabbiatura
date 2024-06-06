@@ -8,23 +8,28 @@ navbar.classList.toggle('d-md-none');
 
 // METODO QUASI GIUSTO
 
-// window.addEventListener('scroll', () => {
-//     if (window.scrollY > 100) {
-//         navbar.classList.add('d-none');
-//     } else {
-//         navbar.classList.remove('d-none');
-//     }
-//     });
+// let aboutUs = document.querySelector('#chisiamo');
+// let about = document.querySelector('#about');
+
+// document.getElementById("chisiamo").onclick = function (event) {
+//     window.scrollTo({ top: 600, behavior: 'smooth'});
+// };
+
+let aboutUs = document.querySelector('#chisiamo');
+let about = document.querySelector('#about'); 
+
+document.getElementById("chisiamo").onclick = function (event) {
+    let aboutPosition = about.offsetTop;
+    window.scrollTo({ top: aboutPosition, behavior: 'smooth' }); 
+};
+
+let aboutUs2 = document.querySelector('#chisiamo2');
+
+
+document.getElementById("chisiamo2").onclick = function (event) {
+    let aboutPosition = about.offsetTop;
+    window.scrollTo({ top: aboutPosition, behavior: 'smooth' }); 
+};
 
 
 
-
-
-window.onscroll = () =>{
-    // navbar.classList.toggle('d-none');
-    // navbar.classList.toggle('d-md-none');
-}
-window.onclick = () =>{
-    // navbar.classList.toggle('d-none');
-    // navbar.classList.toggle('d-md-none');
-}

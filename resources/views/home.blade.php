@@ -9,7 +9,7 @@
 
 <nav class="navbar d-none d-md-block d-lg-block">
     <a href="{{route('home')}}">Home</a>
-    <a href="{{route('home')}}">Chi Siamo</a>
+    <a id="chisiamo">Chi Siamo</a>
     <a href="{{route('galleria')}}">Galleria</a>
     <a href="{{route('contatti')}}">Contatti</a>
 </nav>
@@ -43,6 +43,8 @@
         <a href="{{route('contatti')}}" class="btn">Contattaci adesso</a>
     </div>
 </section>
+
+
 <!-- about us -->
 <section class="about" id="about">
     <h1 class="heading"> <span>About</span> us </h1>
@@ -171,7 +173,7 @@
     </div>
     <div class="links">
     <a href="{{route('home')}}">Home</a>
-    <a href="{{route('home')}}">Chi Siamo</a>
+    <a id="chisiamo2">Chi Siamo</a>
     <a href="{{route('galleria')}}">Galleria</a>
     <a href="{{route('contatti')}}">Contatti</a>
     </div>
