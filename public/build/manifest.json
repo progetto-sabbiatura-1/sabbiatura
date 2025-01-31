@@ -1,0 +1,16 @@
+{
+  "public/img/cant3.jpg": {
+    "file": "assets/cant3-Hmdfa5GY.jpg",
+    "src": "public/img/cant3.jpg"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-TGEV6c1s.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-pdaML-AV.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  }
+}
